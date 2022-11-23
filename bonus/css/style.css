@@ -24,6 +24,7 @@ GENERIC STYLES */
 /* * TAG HTML */
 body{
     font-family: sans-serif;
+    min-width: 232px;
 }
 
 .container div{
