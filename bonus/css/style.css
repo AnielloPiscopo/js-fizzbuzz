@@ -35,3 +35,8 @@ body{
 .buzz{
     color: var(--buzz-color);
 }
+
+.title{
+    font-size: 3rem;
+    text-align: center;
+}

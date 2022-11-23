@@ -15,6 +15,9 @@ title.innerHTML = 'FizzBuzz';
 
 // * Adding of the classes in the tags
 container.classList.add('container');
+title.classList.add('title');
+
+// * Appending of the elements in the HTML
 document.body.append(main);
 main.append(title);
 main.append(container);
