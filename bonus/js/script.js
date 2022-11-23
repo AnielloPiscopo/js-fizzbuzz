@@ -47,7 +47,7 @@ for(let i=1 ; i<=100 ; i++){
 
         div.onclick = function(){
             div.innerHTML = `
-                <strong class='buzz number'>${i}</strong>
+                <strong class='fizz number'>${i}</strong>
             `
         }
     }
@@ -58,7 +58,7 @@ for(let i=1 ; i<=100 ; i++){
 
         div.onclick = function(){
             div.innerHTML = `
-                <strong class='fizz number'>${i}</strong>
+                <strong class='buzz number'>${i}</strong>
             `
         }
     }
