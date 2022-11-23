@@ -15,7 +15,7 @@ title.innerHTML = 'FizzBuzz';
 
 // * Adding of the classes in the tags
 container.classList.add('container');
-title.classList.add('title');
+title.className = 'title fizz buzz';
 
 // * Appending of the elements in the HTML
 document.body.append(main);
@@ -33,19 +33,37 @@ for(let i=1 ; i<=100 ; i++){
         div.innerHTML = `
             <em><span class='fizz'>Fizz</span><span class='buzz'>Buzz</span></em>
         `;
+
+        div.onclick = function(){
+            div.innerHTML = `
+                <strong class='fizz buzz number'>${i}</strong>
+            `
+        }
     }
     else if((i%3 === 0)){
         div.innerHTML = `
             <em class='fizz'>Fizz</em>
         `
+
+        div.onclick = function(){
+            div.innerHTML = `
+                <strong class='buzz number'>${i}</strong>
+            `
+        }
     }
     else if((i%5 === 0)){
         div.innerHTML = `
             <em class='buzz'>Buzz</em>
         `
+
+        div.onclick = function(){
+            div.innerHTML = `
+                <strong class='fizz number'>${i}</strong>
+            `
+        }
     }
     else{
-        div.innerHTML = `<strong>${i}</strong>`;
+        div.innerHTML = `<strong class='number'>${i}</strong>`;
     }
 
     // * Appending of the various elements in the container

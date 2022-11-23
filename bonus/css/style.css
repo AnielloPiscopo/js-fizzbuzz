@@ -15,7 +15,8 @@ GENERIC STYLES */
 /* * ROOT */
 :root{
     --fizz-color:red;
-    --buzz-color:orange;
+    --buzz-color:yellow;
+    --fizzbuzz-colo:orange;
 }
 
 
@@ -25,18 +26,34 @@ body{
     font-family: sans-serif;
 }
 
+.container div{
+    text-align: center;
+    margin: 2rem 0;
+}
+
 
 
 /* * CLASSES */
 .fizz{
     color: var(--fizz-color);
+    cursor: pointer;
 }
 
 .buzz{
     color: var(--buzz-color);
+    cursor: pointer;
+}
+
+.number{
+    cursor: default;
+}
+
+.fizz.buzz{
+    color:orange;
 }
 
 .title{
     font-size: 3rem;
     text-align: center;
+    cursor: default;
 }
