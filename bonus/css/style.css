@@ -15,8 +15,8 @@ GENERIC STYLES */
 /* * ROOT */
 :root{
     --fizz-color:red;
-    --buzz-color:yellow;
-    --fizzbuzz-colo:orange;
+    --buzz-color: blue;
+    --fizzbuzz-color: violet;
 }
 
 
@@ -49,7 +49,7 @@ body{
 }
 
 .fizz.buzz{
-    color:orange;
+    color:var(--fizzbuzz-color);
 }
 
 .title{
