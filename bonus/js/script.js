@@ -28,7 +28,7 @@ for(let i=1 ; i<=100 ; i++){
     // * List of conditions
     if((i%3 === 0) && (i%5 === 0)){ 
         div.innerHTML = `
-            <em><strong><span class='fizz'>Fizz</span><span class='buzz'>Buzz</span></strong></em>
+            <em><span class='fizz'>Fizz</span><span class='buzz'>Buzz</span></em>
         `;
     }
     else if((i%3 === 0)){
@@ -42,7 +42,7 @@ for(let i=1 ; i<=100 ; i++){
         `
     }
     else{
-        div.innerHTML = i;
+        div.innerHTML = `<strong>${i}</strong>`;
     }
 
     // * Appending of the various elements in the container
