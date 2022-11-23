@@ -27,7 +27,7 @@ body{
     min-width: 232px;
 }
 
-.container div{
+.container>div{
     text-align: center;
     margin: 2rem 0;
 }
@@ -57,4 +57,5 @@ body{
     font-size: 3rem;
     text-align: center;
     cursor: default;
+    margin: 2rem 0;
 }
