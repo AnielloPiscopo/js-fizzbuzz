@@ -1,0 +1,37 @@
+/* * --------------------------------------------------------------------
+GENERIC STYLES */
+
+/* * UNIVERSAL SELECTOR */
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* * ROOT */
+:root{
+    --fizz-color:red;
+    --buzz-color:orange;
+}
+
+
+
+/* * TAG HTML */
+body{
+    font-family: sans-serif;
+}
+
+
+
+/* * CLASSES */
+.fizz{
+    color: var(--fizz-color);
+}
+
+.buzz{
+    color: var(--buzz-color);
+}
