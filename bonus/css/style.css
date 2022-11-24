@@ -30,11 +30,17 @@ body{
 .container>div{
     text-align: center;
     margin: 2rem 0;
+    width: 100%;
 }
 
 
 
 /* * CLASSES */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .fizz{
     color: var(--fizz-color);
     cursor: pointer;
@@ -58,4 +64,41 @@ body{
     text-align: center;
     cursor: default;
     margin: 2rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* * -----------------------------------------------------------------
+RESPONSIVENESS */
+
+/* * SM */
+@media screen and (min-width: 576px){
+    .container>div{
+        width: calc(100%/2);
+    }
+}
+
+
+
+/* * MD */
+@media screen and (min-width: 768px){
+    .container>div{
+        width: calc(100%/3);
+    }
+}
+
+
+
+/* * LG */
+@media screen and (min-width: 992px){
+    .container>div{
+        width: calc(100%/5);
+    }
 }
