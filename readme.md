@@ -3,7 +3,7 @@
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style&logo=JavaScript&logoColor=black" alt="JavaScript" />
 <br>JS-FIZZBUZZ
 </h1>
-<h3>◦ Simple page containing the fizzbuzz game made with HTML, CSS , bootstrap and JS</h3>
+<h3>◦ Simple responsive page containing the fizzbuzz game made with HTML, CSS , bootstrap and JS</h3>
 <h3>◦ Developed during the course of Full-Stack Web Developer with Boolean</h3>
 <h3>◦ Link: https://aniellopiscopo.github.io/js-fizzbuzz/</h3>
 
@@ -22,8 +22,15 @@
 
 ## 📒 Table of Contents
 - [📒 Table of Contents](#-table-of-contents)
+- [⚙️ Features](#-features)
 - [🚀 Getting Started](#-getting-started)
 - [📄 License](#-license)
+
+---
+
+## ⚙️ Features
+
+1. Responsive
 
 ---
 
